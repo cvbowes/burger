@@ -5,9 +5,9 @@ use burgers_db;
 
 create table burgers
 (
-	id int not null auto_increment,
+	id int auto_increment not null,
     burger_name varchar(100) not null,
     devoured boolean default false,
-    date timestamp,
+    createdAt timestamp not null default current_timestamp,
     primary key (id)
 );
