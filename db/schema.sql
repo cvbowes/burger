@@ -1,7 +1,4 @@
-drop database if exists burgers_db;
-
-create database burgers_db;
-use burgers_db;
+use ca8njlxf13i4j0n9;
 
 create table burgers
 (
